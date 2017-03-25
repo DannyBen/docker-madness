@@ -20,4 +20,8 @@ $ docker run --rm -it -v $PWD:/docs -p 3000:3000 dannyben/madness
 $ docker run --rm -it -v $PWD:/docs -p 3000:3000 dannyben/madness madness --index
 ```
 
+[View on Docker Hub][2]
+
 [1]: https://github.com/DannyBen/madness
+[2]: https://hub.docker.com/r/dannyben/madness/
+
