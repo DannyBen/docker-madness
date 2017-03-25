@@ -10,7 +10,7 @@ folder.
 Usage Examples
 --------------------------------------------------
 
-```
+```shell
 # Start the server on localhost:3000, with the current directory as the 
 # markdown documentation folder
 $ docker run --rm -it -v $PWD:/docs -p 3000:3000 dannyben/madness
