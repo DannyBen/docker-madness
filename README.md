@@ -15,8 +15,8 @@ Usage Examples
 # markdown documentation folder
 $ docker run --rm -it -v $PWD:/docs -p 3000:3000 dannyben/madness
 
-# Start madness with command line arguments, for instance: Run madness with
-# --index
+# Start madness with command line arguments, for instance:
+# Run madness with --index, to automatically regenerate the search index
 $ docker run --rm -it -v $PWD:/docs -p 3000:3000 dannyben/madness madness --index
 ```
 
