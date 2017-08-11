@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  web:
+    image: dannyben/madness
+    volumes: ["./:/docs"]
+    ports: ["3000:3000"]

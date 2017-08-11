@@ -20,8 +20,35 @@ $ docker run --rm -it -v $PWD:/docs -p 3000:3000 dannyben/madness
 $ docker run --rm -it -v $PWD:/docs -p 3000:3000 dannyben/madness madness --index
 ```
 
-[View on Docker Hub][2]
+Use with docker-compose
+--------------------------------------------------
+
+Pui this in your `docker-compose.yml`:
+
+```
+# docker-compose.yml
+version: '2'
+
+services:
+  web:
+    image: dannyben/madness
+    volumes: ["./:/docs"]
+    ports: ["3000:3000"]
+```
+
+Then run:
+
+```
+$ docker-compose up
+```
+
+---
+
+[Madness Gem on GitHub][1]
+[Madness Docker on Docker Hub][2]
+[Madness Docker Source on GitHub][3]
 
 [1]: https://github.com/DannyBen/madness
 [2]: https://hub.docker.com/r/dannyben/madness/
+[3]: https://hub.docker.com/r/dannyben/docker-madness/
 
