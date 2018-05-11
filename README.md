@@ -44,9 +44,9 @@ $ docker-compose up
 
 ---
 
-[Madness Gem on GitHub][1]
-[Madness Docker on Docker Hub][2]
-[Madness Docker Source on GitHub][3]
+- [Madness Gem on GitHub][1]
+- [Madness Docker on Docker Hub][2]
+- [Madness Docker Source on GitHub][3]
 
 [1]: https://github.com/DannyBen/madness
 [2]: https://hub.docker.com/r/dannyben/madness/
