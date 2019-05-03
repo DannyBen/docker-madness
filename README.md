@@ -49,11 +49,12 @@ Additional Information
 
 - [Madness Home][4]
 - [Madness Gem on GitHub][1]
+- [Madness Gem on RubyGems][5]
 - [Madness Docker Image on Docker Hub][2]
 - [Madness Docker Source on GitHub][3]
 
 [1]: https://github.com/DannyBen/madness
 [2]: https://hub.docker.com/r/dannyben/madness/
-[3]: https://hub.docker.com/r/dannyben/docker-madness/
+[3]: https://github.com/DannyBen/docker-madness
 [4]: http://madness.dannyb.co/
-
+[5]: https://rubygems.org/gems/madness
