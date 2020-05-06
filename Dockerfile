@@ -1,5 +1,5 @@
 FROM dannyben/alpine-ruby
-RUN gem install madness -v 0.8.2
+RUN gem install madness -v 0.8.3
 WORKDIR /docs
 EXPOSE 3000
 ENTRYPOINT ["madness"]
