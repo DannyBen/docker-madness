@@ -1,0 +1,31 @@
+require 'madness'
+title   "Madness Docker Toolbelt"
+
+command :docker
+
+help   "Build the docker images"
+action :build, :b do
+  run "docker build -t dannyben/madness ."
+  run "docker tag dannyben/madness dannyben/madness:#{Madness::VERSION}"
+  run "docker images |grep madness"
+end
+
+help   "Smoke test the docker image"
+action :test, :t do
+  madness_version = `docker run --rm dannyben/madness --version`.chomp
+  if madness_version != Madness::VERSION
+    say "!txtred!FAIL: docker madness version is #{madness_version}, expected #{Madness::VERSION}"
+    exit 1
+  else
+    say "!txtgrn!PASS: docker madness version is #{madness_version}"
+  end
+end
+
+help   "Push the docker images to Docker Hub"
+action :push, :p do
+  run "docker push dannyben/madness"
+  run "docker push dannyben/madness:#{Madness::VERSION}"
+end
+
+endcommand
+
