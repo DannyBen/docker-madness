@@ -20,8 +20,6 @@ Put this in your `docker-compose.yml`:
 
 ```yaml
 # docker-compose.yml
-version: '3'
-
 services:
   web:
     image: dannyben/madness
