@@ -25,6 +25,7 @@ services:
     image: dannyben/madness
     volumes: [".:/docs"]
     ports: ["3000:3000"]
+    command: server
 ```
 
 Then run:
