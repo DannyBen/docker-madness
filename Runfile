@@ -1,5 +1,5 @@
 # gem install runfile runfile-tasks
 
-require 'madness'
+require 'madness/version'
 title   "Madness Docker Toolbelt"
 import_gem 'runfile-tasks/docker', image: 'dannyben/madness', version: Madness::VERSION
