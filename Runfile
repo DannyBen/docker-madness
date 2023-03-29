@@ -1,5 +1,12 @@
-# gem install runfile runfile-tasks
-
+# This runfile provides shortcuts for building the docker image
+# To use it, install these dependencies:
+#
+#   $ gem install madness runfile runfile-tasks
+#
+# then run:
+#
+#   $ run docker --help
+#
 require 'madness/version'
-title   "Madness Docker Toolbelt"
+title 'Madness Docker Toolbelt'
 import_gem 'runfile-tasks/docker', image: 'dannyben/madness', version: Madness::VERSION
