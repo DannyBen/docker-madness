@@ -1,5 +1,11 @@
 # Docker Madness Markdown Server
 
+> *NOTE*
+> This repository is now merged into the [madness](https://github.com/DannyBen/madness)
+> repository. Please refer to it instead.
+
+---
+
 This is a dockerized version of the [Madness markdown server ruby gem][1]. 
 
 It allows you to start a webserver that shows your markdown documentation 
