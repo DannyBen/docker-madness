@@ -1,6 +1,6 @@
 # Docker Madness Markdown Server
 
-> **REPOSITORY DEPRECATION NOTICE**
+> **REPOSITORY DEPRECATION NOTICE**  
 > This repository is now merged into the [madness](https://github.com/DannyBen/madness)
 > repository. Please refer to it instead.
 
